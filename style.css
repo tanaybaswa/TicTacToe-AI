@@ -1,0 +1,45 @@
+.square{
+    width: 33%;
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+    margin-right: -5px;
+    margin-top:-3px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: large;
+}
+  
+body{
+  margin: 0 auto;
+  width:50%;
+  border: 2px solid black;
+}
+
+.board{
+  display: block;
+  width: 90%;
+  padding:20px;
+  margin: 0 auto;
+}
+
+.b{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#status{
+
+  width: 130px;
+  font-size: large;
+  margin: 10px auto;
+  text-align: center;
+  color: black;
+}
+
+.restart{
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}

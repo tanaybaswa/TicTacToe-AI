@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class = "board">
+          <div class = "b">
+            <div>
+              <button class="square top left" onclick="onClick(event)"></button>
+              <button class="square top" onclick="onClick(event)"></button>
+              <button class="square top right" onclick="onClick(event)"></button>
+            </div>
+            <div>
+              <button class="square left" onclick="onClick(event)"></button>
+              <button class="square" onclick="onClick(event)"></button>
+              <button class="square right" onclick="onClick(event)"></button>
+            </div>
+            <div>
+              <button class="square bottom left" onclick="onClick(event)"></button>
+              <button class="square bottom" onclick="onClick(event)"></button>
+              <button class="square bottom right" onclick="onClick(event)"></button>
+            </div>
+          </div>
+
+          <div id="status">Game in Progress</div>
+          <button class = "restart" onclick="restart()">Restart</button>
+
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
